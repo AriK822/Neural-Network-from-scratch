@@ -58,6 +58,7 @@ You can view the reaults by running "image colorizer/colorize test.py":
 
 
 ## Genetic algorithm
+### 2D car game
 Made a simple 2D driving game in pygame.
 Used genetic algorithm. AI learns to play the game:
 - Input: 7 ray casts in car direction
@@ -65,8 +66,16 @@ Used genetic algorithm. AI learns to play the game:
 
 ### Preview
 Generation 7:
-![Generation 7](assets/genetic_algorithm_cars.gif)
+![Generation_7](assets/genetic_algorithm_cars.gif)
 
+### Flappy bird
+Flappy bird clone in pygame.<br>
+AI leanrs to play using a genetic algorithm:
+### Preview
+Generation 16:
+![Generation_16](assets/flappy_bird_preview.gif)
+
+The elite bird in generation 16 in this example scored 100+ and never lost!
 
 
 # To do
