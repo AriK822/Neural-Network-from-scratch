@@ -67,7 +67,7 @@ class NeuralNetwork(object):
 
         for w, update_w, b, update_b in zip(self.weights, self.update_weights, self.biases, self.update_biases):
             w -= learning_rate * (1 / batch_size) * update_w
-            b -= learning_rate * (1 / batch_size) * update_b.flatten()
+            b -= learning_rate * (1 / batch_size) * update_b.flatten() # type: ignore
         
 
     def save_network(self, name):

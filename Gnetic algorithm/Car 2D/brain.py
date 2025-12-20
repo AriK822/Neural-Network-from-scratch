@@ -1,5 +1,4 @@
 import numpy
-import random
 
 
 class NeuralNetwork(object):
